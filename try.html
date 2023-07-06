@@ -1,0 +1,22 @@
+<html>
+<head>
+  <link href="try.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+
+  <script type="text/JavaScript"> 
+    function savefile(value) {
+      var fileUrl = document.getElementsByName(value)[0].src;
+
+      const link = document.createElement("a");
+      link.href = fileUrl;
+      link.download = '';
+      link.click();        
+      document.body.removeChild(link);    
+    }     
+  </script>     
+</head>
+<body>
+  <header class="full">
+  </header>
+
+</body>
