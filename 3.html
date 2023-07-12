@@ -1,0 +1,20 @@
+<link href="3.css" rel="stylesheet" type="text/css">
+<div class="container">
+    <div class="background-image">
+    <img src="back.png" alt="Background Image">
+  </div>
+    <img src="term.png" alt="Overlay Image" class="overlay1">
+    <img src="bar.png" alt="Overlay Image" class="overlay2">
+    <div class="start">
+    <a href="2.html">
+    <img src="1week.png" alt="Another Image" class="another1-image">
+    <img src="1month.png" alt="Another Image" class="another2-image">
+    <img src="alltime.png" alt="Another Image" class="another3-image">
+    </a>
+    </div>
+</div>
+<script>
+  document.querySelector('start img').addEventListener('click', function() {
+    window.location.href = '2.html'; // 移動先のURLを指定
+  });
+</script>
